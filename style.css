@@ -19,6 +19,10 @@ footer {
     background-color: #3a546d;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .text-white {
     color: white;
 }
@@ -83,4 +87,20 @@ footer .fa {
 
 .footer-link {
     color: #1abc9c;
+}
+
+.star-line {
+    display: inline-block;
+    width: 180px;
+    height: 3px;
+}
+
+.star-img {
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .star-line {
+        width: 70px;
+    }
 }
