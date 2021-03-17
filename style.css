@@ -23,7 +23,8 @@ footer {
     color: white;
 }
 
-.my-theme-navbar a {
+.my-theme-navbar a,
+footer .fa {
     color: white;
 }
 
@@ -61,4 +62,25 @@ section {
 .btn-green:hover {
     background-color: teal;
     color: white;
+}
+
+.my-input {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+
+footer .fa {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer-link {
+    color: #1abc9c;
 }

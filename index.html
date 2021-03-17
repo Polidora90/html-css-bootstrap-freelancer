@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
@@ -54,7 +55,7 @@
         </section>
 
         <!-- sezione 1, immagini.-->
-        <section class="h-300">
+        <section>
             <div class="container">
                 <!-- banner PORTFOLIO -->
                 <div class="row">
@@ -103,7 +104,7 @@
         <section class="bg-green text-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 text-center">
+                    <div class="col-sm-10 col-sm-offset-1 text-center">
                         <h2><strong>ABOUT</strong></h2>
                     </div>
                 </div>
@@ -123,31 +124,67 @@
             </div>
         </section>
 
-        <!-- sezione 3, "contact me"
-        potrebbe anche essere un'unica col -->
-        <section class="h-300">
+        <!-- sezione 3, "contact me" -->
+        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12"></div>
+                    <div class="col.col-sm-10 col-sm-offset-1">
+
+                        <div class="text-container text-center">
+                            <h2><strong>CONTACT ME</strong></h2>
+                        </div>
+
+                        <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control my-input" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control my-input" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control my-input" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <textarea type="email" class="form-control my-input" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        </form>
+
+                        <a class="btn btn-green" href="#" role="button">Sand</a>
+
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- 4 .col-sm-12 -->
-    <footer>
+    <footer class="text-white">
         <section class="bg-dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4"></div>
-                    <div class="col-xs-12 col-sm-4"></div>
-                    <div class="col-xs-12 col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <address class="text-center">
+                            <strong>LOCATION</strong><br>
+                            2215 John Daniel Drive Clark, MO <br>
+                            54243
+                        </address>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <strong>AROUND THE WEB</strong>
+                        <ul class="list-inline">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-google"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <strong>ABOUT FREELANCER</strong><br>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="footer-link">Start Bootstrap</a>.</p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -155,7 +192,9 @@
         <section class="bg-darker">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12"></div>
+                    <div class="col-sm-10 col-sm-offset-1 text-center">
+                        <span>Copyright &copy; Your Website 2019</span>
+                    </div>
                 </div>
             </div>
         </section>
