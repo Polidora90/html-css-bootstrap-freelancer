@@ -3,15 +3,9 @@ nav {
     height: 80px;
 }
 
-.hero-section,
-.section-2 {
-    background-color: #1abc9c;
-}
 
-.hero-section,
-.section-1,
-.section-2,
-.section-3 {
+
+.h-300 {
     min-height: 300px;
 }
 
@@ -23,4 +17,16 @@ footer {
 [class*="col-"] {
     border: 1px solid red;
     min-height: 80px;
+}
+
+.bg-green {
+    background-color: #1abc9c;
+}
+
+.bg-darker {
+
+}
+
+.bg-dark {
+    background-color: #3a546d;
 }
