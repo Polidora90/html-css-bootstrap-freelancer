@@ -93,6 +93,7 @@ footer .fa {
     display: inline-block;
     width: 180px;
     height: 3px;
+    border-radius: 3px;
 }
 
 .star-img {
